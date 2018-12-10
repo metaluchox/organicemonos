@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+<link rel="icon" href="logo.png">
+    <title>ORGANICEMONOS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+  </head>
+
+  <body role="document">
+	<div class="container theme-showcase" role="main">
+		<!-- Fixed navbar -->
+		  <nav class="navbar navbar-custom navbar-fixed-top ">
+			<div class="container">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a href="#" class="pull-left"><img src="logo.png" class="img-responsive" alt=""></a>
+				<a class="navbar-brand"  onclick="goTo('AdministradorHome.html');">organicemonos.com</a>
+			  </div>
+			  <div class="navbar-collapse collapse">
+			  <div class="dropdown">
+				 <form class="navbar-form navbar-right">			
+					<button  class="btn btn-danger" onclick="salir();"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar Sesión</button>
+				</form>
+			  </div><!--/.nav-collapse -->
+			</div>
+		  </nav>
+<div class="container">
+	  </br>
+      <div class="row">
+        <div class="col-lg-12 col-centered">
+			<div class="panel panel-primary">
+				<div class="panel-heading clearfix">
+					<h3 class="panel-title pull-left" style="padding-top: 7.5px;" id="nombre"></h3>
+				</div>
+				<div class="panel-body clearfix">
+					<table class="table table-condensed table-bordered  table-hover" id="tablaEstado">
+						<thead>
+							<tr class="info">
+							  <th>Nombre</th>
+							  <th>Apellido</th>
+							  <th>Correo</th>
+							  <th>Rut</th>							  
+							</tr>
+						</thead>
+						  <tbody id="tpe">
+						  </tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+</div>	  
+
+    </div> <!-- /container -->
+	
+	<footer class="footer">
+		<center><p>&copy; 2016 Organicemonos.</p></center>
+	</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="../../assets/js/docs.min.js"></script>-->
+	<script src="js/functionsA.js"></script>
+  </body>
+</html>

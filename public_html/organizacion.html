@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+<link rel="icon" href="logo.png">
+    <title>ORGANICEMONOS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+  <body role="document">
+	<div class="container theme-showcase" role="main">
+		<!-- Fixed navbar -->
+		  <nav class="navbar navbar-custom navbar-fixed-top ">
+			<div class="container">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a href="#" class="pull-left"><img src="logo.png" class="img-responsive" alt=""></a>
+				<a class="navbar-brand"  onclick="goTo('home.html');">organicemonos.com</a>
+			  </div>
+			  <div class="navbar-collapse collapse">
+			  <div class="dropdown">
+				 <form class="navbar-form navbar-right">			
+					<button type="submit" class="btn btn-danger" onclick="cerrarSesion();"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar Sesión</button>
+				</form>
+			  </div><!--/.nav-collapse -->
+			</div>
+		  </nav>
+<div class="container">
+	  </br>
+      <div class="row">
+        <div class="col-lg-12 col-centered">
+			<div class="panel panel-primary">
+				<div class="panel-heading clearfix">
+					<h3 class="panel-title pull-left" style="padding-top: 7.5px;" id="nombre"></h3>
+					<button type="button" class="btn btn-primary pull-right" id="count"></button>
+				</div>
+				<div class="panel-body clearfix">
+				<div id="divSocial">
+					<a id="enlaceFacebook" class='btn btn-block btn-social btn-face'>Compartir por Facebook <span class='fa fa-facebook'></span></a>
+					<a id="enlaceTwitter" class='btn btn-block btn-social btn-face'>Compartir por Twitter <span class='fa fa-twitter'></span></a>			
+				</div>
+				
+					<div id="op"><button type="button" class="btn btn-primary pull-left" id="tema"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Iniciativa </button></div>
+					<div id="op"><button type="button" class="btn btn-success pull-left" id="tipo"><span class="glyphicon glyphicon-tags" aria-hidden="true" ></span>  #</button></div>
+					<div id="mark"></div>
+					</br></br>
+					<div id="rec"></div>
+					<div id="creador"></div>
+					<div id="msgadmin" ></div>
+					<center><label>Descripción</label></center>
+					<div class="panel panel-default">
+					  <div class="panel-body" id="descripcion">
+					  </div>
+					</div>
+					<center><label>Comentarios</label></center>
+					<div class="panel panel-default">
+						<div class="well clearfix">
+							<center><h4>Deja tu Comentario:</h4></center>							
+							<div class="input-group">
+								<input type="text"  id="comment" class="form-control" placeholder="¿Qué estás pensando?" onkeypress="enterPress(event);">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-primary pull-right" id="cmnt" onclick="crearComentario(); return false;"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Enviar</button>
+								</span>
+							</div>
+						</div>
+						<div class="panel-body" id="comentarios">
+
+						</div>
+					</div>
+				</div>
+        </div>
+<div style="position: absolute; top: -999px;left: -999px;">mayfair hair topper raw brazilian hair vendors <a href="https://www.finesthairextensions.co.uk/">human hair extensions</a> people getting extensions hot hair <a href="https://www.wigsandclips.co.uk/">hair extensions</a> micro loop hair extensions 200 strands encore human hair <a href="http://www.humanwigs.co.uk/">real hair wigs uk</a> clip in hair extensions color match best weft hair extensions <a href="https://www.wighair.co.uk">lace wigs</a> qingdao china hair average wedding hair cost uk <a href="http://www.wigsnew.co.uk">human hair wigs</a> </div>
+      </div>
+</div>	  
+
+    </div> <!-- /container -->
+	
+	<footer class="footer">
+		<center><p>&copy; 2016 Organicemonos.</p></center>
+	</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="../../assets/js/docs.min.js"></script>-->
+	<script src="js/functions.js"></script>
+  </body>
+</html>
